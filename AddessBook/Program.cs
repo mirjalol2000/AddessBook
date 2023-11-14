@@ -16,8 +16,6 @@ namespace AddessBook
             AddressService addressService = new AddressService();
 
             Console.WriteLine(addressService.GetFullAddress(address));
-            
-
 
             Console.ReadKey();
         }
